@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    align-self: stretch;
+}
+
+.box {
+    width: 33%;           /* Her bir div'in genişliğini ayarla */
+    padding: 20px;       /* İç boşluk */
+    text-align: start;   /* Metni ortala */
+    border: 1px solid #000; /* Kenarlık */
+    align-self: stretch;
+    background-color: #f6f6f6;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
